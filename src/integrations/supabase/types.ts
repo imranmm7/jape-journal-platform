@@ -14,16 +14,217 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      manuscript_status_history: {
+        Row: {
+          changed_by: string
+          created_at: string
+          id: string
+          manuscript_id: string
+          new_status: Database["public"]["Enums"]["manuscript_status"]
+          note: string | null
+          old_status: Database["public"]["Enums"]["manuscript_status"] | null
+        }
+        Insert: {
+          changed_by: string
+          created_at?: string
+          id?: string
+          manuscript_id: string
+          new_status: Database["public"]["Enums"]["manuscript_status"]
+          note?: string | null
+          old_status?: Database["public"]["Enums"]["manuscript_status"] | null
+        }
+        Update: {
+          changed_by?: string
+          created_at?: string
+          id?: string
+          manuscript_id?: string
+          new_status?: Database["public"]["Enums"]["manuscript_status"]
+          note?: string | null
+          old_status?: Database["public"]["Enums"]["manuscript_status"] | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "manuscript_status_history_manuscript_id_fkey"
+            columns: ["manuscript_id"]
+            isOneToOne: false
+            referencedRelation: "manuscripts"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      manuscripts: {
+        Row: {
+          abstract: string
+          affiliation: string
+          article_type: string
+          assigned_editor_id: string | null
+          author_id: string
+          co_authors: string | null
+          corresponding_author: string
+          cover_letter: string | null
+          created_at: string
+          email: string
+          file_url: string | null
+          id: string
+          keywords: string
+          status: Database["public"]["Enums"]["manuscript_status"]
+          title: string
+          updated_at: string
+        }
+        Insert: {
+          abstract: string
+          affiliation: string
+          article_type: string
+          assigned_editor_id?: string | null
+          author_id: string
+          co_authors?: string | null
+          corresponding_author: string
+          cover_letter?: string | null
+          created_at?: string
+          email: string
+          file_url?: string | null
+          id?: string
+          keywords: string
+          status?: Database["public"]["Enums"]["manuscript_status"]
+          title: string
+          updated_at?: string
+        }
+        Update: {
+          abstract?: string
+          affiliation?: string
+          article_type?: string
+          assigned_editor_id?: string | null
+          author_id?: string
+          co_authors?: string | null
+          corresponding_author?: string
+          cover_letter?: string | null
+          created_at?: string
+          email?: string
+          file_url?: string | null
+          id?: string
+          keywords?: string
+          status?: Database["public"]["Enums"]["manuscript_status"]
+          title?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      profiles: {
+        Row: {
+          created_at: string
+          email: string
+          full_name: string
+          id: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          email?: string
+          full_name?: string
+          id?: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          email?: string
+          full_name?: string
+          id?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      reviews: {
+        Row: {
+          assigned_at: string
+          comments: string | null
+          completed_at: string | null
+          confidential_comments: string | null
+          id: string
+          is_completed: boolean
+          manuscript_id: string
+          recommendation: string | null
+          reviewer_id: string
+        }
+        Insert: {
+          assigned_at?: string
+          comments?: string | null
+          completed_at?: string | null
+          confidential_comments?: string | null
+          id?: string
+          is_completed?: boolean
+          manuscript_id: string
+          recommendation?: string | null
+          reviewer_id: string
+        }
+        Update: {
+          assigned_at?: string
+          comments?: string | null
+          completed_at?: string | null
+          confidential_comments?: string | null
+          id?: string
+          is_completed?: boolean
+          manuscript_id?: string
+          recommendation?: string | null
+          reviewer_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "reviews_manuscript_id_fkey"
+            columns: ["manuscript_id"]
+            isOneToOne: false
+            referencedRelation: "manuscripts"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      user_roles: {
+        Row: {
+          created_at: string
+          id: string
+          role: Database["public"]["Enums"]["app_role"]
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          role: Database["public"]["Enums"]["app_role"]
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          role?: Database["public"]["Enums"]["app_role"]
+          user_id?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      has_role: {
+        Args: {
+          _role: Database["public"]["Enums"]["app_role"]
+          _user_id: string
+        }
+        Returns: boolean
+      }
     }
     Enums: {
-      [_ in never]: never
+      app_role: "author" | "reviewer" | "editor"
+      manuscript_status:
+        | "submitted"
+        | "under_review"
+        | "in_peer_review"
+        | "revision_required"
+        | "revised"
+        | "accepted"
+        | "rejected"
+        | "published"
     }
     CompositeTypes: {
       [_ in never]: never
@@ -150,6 +351,18 @@ export type CompositeTypes<
 
 export const Constants = {
   public: {
-    Enums: {},
+    Enums: {
+      app_role: ["author", "reviewer", "editor"],
+      manuscript_status: [
+        "submitted",
+        "under_review",
+        "in_peer_review",
+        "revision_required",
+        "revised",
+        "accepted",
+        "rejected",
+        "published",
+      ],
+    },
   },
 } as const
