@@ -1,8 +1,9 @@
 import { Link, useLocation } from "react-router-dom";
-import { Search, User, Menu, X } from "lucide-react";
+import { Search, User, Menu, X, LayoutDashboard, LogOut } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { useAuth } from "@/contexts/AuthContext";
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -15,6 +16,7 @@ const navLinks = [
 export function Header() {
   const location = useLocation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { user, signOut, loading } = useAuth();
 
   return (
     <header className="journal-header sticky top-0 z-50">
@@ -29,18 +31,25 @@ export function Header() {
             </Link>
           </div>
           <div className="hidden md:flex items-center gap-4">
-            <Link to="/login" className="text-sm hover:text-primary-foreground/80 flex items-center gap-1">
-              <User size={16} />
-              Login
-            </Link>
-            <Link to="/register" className="text-sm hover:text-primary-foreground/80">
-              Register
-            </Link>
+            {!loading && (user ? (
+              <>
+                <Link to="/dashboard" className="text-sm hover:text-primary-foreground/80 flex items-center gap-1">
+                  <LayoutDashboard size={16} /> Dashboard
+                </Link>
+                <button onClick={signOut} className="text-sm hover:text-primary-foreground/80 flex items-center gap-1">
+                  <LogOut size={16} /> Sign Out
+                </button>
+              </>
+            ) : (
+              <>
+                <Link to="/login" className="text-sm hover:text-primary-foreground/80 flex items-center gap-1">
+                  <User size={16} /> Login
+                </Link>
+                <Link to="/register" className="text-sm hover:text-primary-foreground/80">Register</Link>
+              </>
+            ))}
           </div>
-          <button 
-            className="md:hidden p-2"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          >
+          <button className="md:hidden p-2" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
@@ -50,14 +59,7 @@ export function Header() {
           <ul className="flex items-center gap-1">
             {navLinks.map((link) => (
               <li key={link.href}>
-                <Link
-                  to={link.href}
-                  className={`journal-nav-link ${
-                    location.pathname === link.href
-                      ? "text-white border-b-2 border-white"
-                      : "text-white/80 hover:text-white"
-                  }`}
-                >
+                <Link to={link.href} className={`journal-nav-link ${location.pathname === link.href ? "text-white border-b-2 border-white" : "text-white/80 hover:text-white"}`}>
                   {link.label}
                 </Link>
               </li>
@@ -65,11 +67,7 @@ export function Header() {
           </ul>
           <div className="flex items-center gap-2">
             <div className="relative">
-              <Input
-                type="search"
-                placeholder="Search articles..."
-                className="w-64 bg-white/10 border-white/20 text-white placeholder:text-white/50 pr-10"
-              />
+              <Input type="search" placeholder="Search articles..." className="w-64 bg-white/10 border-white/20 text-white placeholder:text-white/50 pr-10" />
               <Search className="absolute right-3 top-1/2 -translate-y-1/2 text-white/50" size={18} />
             </div>
           </div>
@@ -81,24 +79,23 @@ export function Header() {
             <ul className="space-y-2">
               {navLinks.map((link) => (
                 <li key={link.href}>
-                  <Link
-                    to={link.href}
-                    className="block py-2 px-4 text-white/80 hover:text-white hover:bg-white/10 rounded"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
+                  <Link to={link.href} className="block py-2 px-4 text-white/80 hover:text-white hover:bg-white/10 rounded" onClick={() => setMobileMenuOpen(false)}>
                     {link.label}
                   </Link>
                 </li>
               ))}
               <li className="border-t border-white/10 pt-2 mt-2">
-                <Link to="/login" className="block py-2 px-4 text-white/80 hover:text-white">
-                  Login
-                </Link>
-              </li>
-              <li>
-                <Link to="/register" className="block py-2 px-4 text-white/80 hover:text-white">
-                  Register
-                </Link>
+                {user ? (
+                  <>
+                    <Link to="/dashboard" className="block py-2 px-4 text-white/80 hover:text-white" onClick={() => setMobileMenuOpen(false)}>Dashboard</Link>
+                    <button onClick={() => { signOut(); setMobileMenuOpen(false); }} className="block py-2 px-4 text-white/80 hover:text-white w-full text-left">Sign Out</button>
+                  </>
+                ) : (
+                  <>
+                    <Link to="/login" className="block py-2 px-4 text-white/80 hover:text-white" onClick={() => setMobileMenuOpen(false)}>Login</Link>
+                    <Link to="/register" className="block py-2 px-4 text-white/80 hover:text-white" onClick={() => setMobileMenuOpen(false)}>Register</Link>
+                  </>
+                )}
               </li>
             </ul>
           </nav>
