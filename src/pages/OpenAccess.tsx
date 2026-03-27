@@ -13,7 +13,7 @@ export default function OpenAccess() {
             <h2 className="text-xl font-bold">Open Access Statement</h2>
           </div>
           <p className="text-muted-foreground mb-4">
-            The Journal of Animal, Plant and Ecology (JAPE) is a fully Open Access journal, providing 
+            [Journal Name] ([Abbreviation]) is a fully Open Access journal, providing 
             immediate, worldwide and unrestricted access to all published articles. All content is freely 
             available to readers without subscription or access fees, ensuring the widest possible 
             dissemination of research findings.
