@@ -24,7 +24,7 @@ const articles = [
     title: "Novel Plant-Soil Interactions in Nitrogen-Deficient Environments",
     authors: "Dawar K.M., Mian I.A., Mussarat M.",
     pages: "33-38",
-    doi: "10.xxxx/jape.2024.003",
+    doi: "10.xxxx/xxxx.2024.003",
   },
   {
     type: "Full Length Article",
