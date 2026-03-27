@@ -10,7 +10,7 @@ const articles = [
     title: "Impact of Climate Change on Crop Yield Variability in Semi-Arid Regions: A Multi-Year Study",
     authors: "Ahmad K., Rahman M., Ali S., Khan I.",
     pages: "1-15",
-    doi: "10.xxxx/jape.2024.001",
+    doi: "10.xxxx/xxxx.2024.001",
   },
   {
     type: "Review Article",
