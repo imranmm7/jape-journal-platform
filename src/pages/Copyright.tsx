@@ -13,7 +13,7 @@ export default function CopyrightPage() {
             Copyright Policy
           </h2>
           <p className="text-muted-foreground mb-4">
-            Authors retain full copyright of their articles published in JAPE. By submitting a 
+            Authors retain full copyright of their articles published in [Journal Abbreviation]. By submitting a 
             manuscript, authors grant the journal a non-exclusive license to publish, archive, 
             and disseminate the content.
           </p>
