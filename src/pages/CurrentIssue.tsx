@@ -17,7 +17,7 @@ const articles = [
     title: "Sustainable Livestock Management: Integrating Traditional and Modern Practices for Enhanced Productivity",
     authors: "Khan N., Hussain T., Suhail S.M., Rahman A.",
     pages: "16-32",
-    doi: "10.xxxx/jape.2024.002",
+    doi: "10.xxxx/xxxx.2024.002",
   },
   {
     type: "Short Communication",
