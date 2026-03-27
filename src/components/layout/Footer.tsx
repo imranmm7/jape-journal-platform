@@ -14,8 +14,8 @@ export function Footer() {
             </p>
             <div className="space-y-2 text-sm text-muted-foreground">
               <p className="flex items-center gap-2">
-                <Mail size={16} />
-                editor@jape-journal.org
+              <Mail size={16} />
+                editor@[journal-domain].org
               </p>
             </div>
           </div>
