@@ -19,7 +19,7 @@ const policyLinks = [
   {
     icon: Shield,
     title: "Publication Ethics",
-    desc: "JAPE adheres to COPE guidelines and international publication ethics standards.",
+    desc: "Adheres to COPE guidelines and international publication ethics standards.",
     href: "/ethics",
   },
   {
