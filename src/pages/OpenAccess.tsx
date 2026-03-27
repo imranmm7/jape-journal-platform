@@ -37,7 +37,7 @@ export default function OpenAccess() {
             the original authors and source are properly credited.
           </p>
           <p className="text-muted-foreground">
-            The Open Access model adopted by JAPE promotes transparency, knowledge sharing and the 
+            The Open Access model adopted by [Journal Abbreviation] promotes transparency, knowledge sharing and the 
             rapid global exchange of scientific information among researchers, practitioners, 
             policymakers, and the wider public.
           </p>
