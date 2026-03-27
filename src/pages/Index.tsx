@@ -23,7 +23,7 @@ const recentArticles = [
     type: "Review Article",
     title: "Sustainable Livestock Management: Integrating Traditional and Modern Practices",
     authors: "Khan N., Hussain T., Suhail S.M.",
-    doi: "10.xxxx/jape.2024.002",
+    doi: "10.xxxx/xxxx.2024.002",
   },
   {
     type: "Short Communication",
