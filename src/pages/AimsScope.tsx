@@ -45,9 +45,8 @@ export default function AimsScope() {
         <section>
           <h2 className="text-xl font-bold mb-4">Scope of the Journal</h2>
           <p className="text-muted-foreground mb-4">
-            The Journal of Animal, Plant and Ecology publishes research covering a broad range of topics 
-            related to agriculture, biology and ecological sciences. Areas of interest include, but are 
-            not limited to:
+            [Journal Name] publishes research covering a broad range of topics. 
+            Areas of interest include, but are not limited to:
           </p>
           <ul className="space-y-2">
             {scopeTopics.map((topic, i) => (
