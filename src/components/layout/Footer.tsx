@@ -42,7 +42,7 @@ export function Footer() {
         </div>
 
         <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Journal of Animal, Plant and Ecology (JAPE). All rights reserved.</p>
+          <p>© {new Date().getFullYear()} [Journal Name Here] ([Abbreviation]). All rights reserved.</p>
           <p className="mt-1">ISSN: XXXX-XXXX (Online)</p>
         </div>
       </div>

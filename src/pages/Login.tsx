@@ -36,7 +36,7 @@ export default function Login() {
             <div className="mx-auto w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4">
               <LogIn className="text-primary" size={28} />
             </div>
-            <CardTitle className="text-2xl">Sign In to JAPE</CardTitle>
+            <CardTitle className="text-2xl">Sign In</CardTitle>
             <p className="text-sm text-muted-foreground mt-2">
               Access your manuscript dashboard
             </p>

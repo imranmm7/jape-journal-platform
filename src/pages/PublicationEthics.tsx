@@ -44,7 +44,7 @@ export default function PublicationEthics() {
             Misconduct Policy
           </h2>
           <p className="text-muted-foreground">
-            JAPE takes allegations of research misconduct seriously. Cases of suspected plagiarism, 
+            [Journal Abbreviation] takes allegations of research misconduct seriously. Cases of suspected plagiarism, 
             data fabrication, or falsification will be investigated following COPE guidelines. 
             Confirmed misconduct may result in rejection or retraction of articles.
           </p>

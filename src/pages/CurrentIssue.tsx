@@ -31,7 +31,7 @@ const articles = [
     title: "Genetic Diversity and Population Structure of Indigenous Cattle Breeds",
     authors: "Jadoon S.A., Gul R., Shah S.M.A.",
     pages: "39-52",
-    doi: "10.xxxx/jape.2024.004",
+    doi: "10.xxxx/xxxx.2024.004",
   },
 ];
 

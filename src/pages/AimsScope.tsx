@@ -57,9 +57,9 @@ export default function AimsScope() {
             ))}
           </ul>
           <p className="text-muted-foreground mt-6">
-            By encompassing these diverse yet interconnected disciplines, JAPE aims to facilitate 
+            By encompassing these diverse yet interconnected disciplines, [Journal Abbreviation] aims to facilitate 
             knowledge exchange among researchers, practitioners and policymakers, fostering scientific 
-            advancements that support sustainable agriculture and ecological integrity.
+            advancements. [Customize this paragraph]
           </p>
         </section>
       </div>

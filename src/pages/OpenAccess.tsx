@@ -58,7 +58,7 @@ export default function OpenAccess() {
             <h2 className="text-xl font-bold">Copyright and Licensing</h2>
           </div>
           <p className="text-muted-foreground">
-            Authors retain full copyright of their articles. By submitting their work to JAPE, authors 
+            Authors retain full copyright of their articles. By submitting their work to [Journal Abbreviation], authors 
             grant the journal a non-exclusive license to publish, archive, and disseminate the content 
             in accordance with the CC BY 4.0 license. This policy safeguards authors' intellectual 
             property rights while enabling broad reuse and citation of their work.

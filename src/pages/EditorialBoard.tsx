@@ -67,8 +67,8 @@ export default function EditorialBoard() {
       <div className="max-w-4xl">
         <h1 className="text-3xl font-bold mb-6">Editorial Board</h1>
         <p className="text-muted-foreground mb-8">
-          The Editorial Board of JAPE comprises distinguished scientists and academics from 
-          diverse fields of agriculture, animal sciences, and ecology.
+          The Editorial Board comprises distinguished scientists and academics from 
+          diverse fields. [Customize this description]
         </p>
 
         <div className="space-y-8">

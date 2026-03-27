@@ -16,7 +16,7 @@ export default function PeerReview() {
       <div className="max-w-3xl">
         <h1 className="text-3xl font-bold mb-6">Peer Review Process</h1>
         <p className="text-muted-foreground mb-8">
-          All manuscripts submitted to the Journal of Animal, Plant and Ecology (JAPE) undergo a 
+          All manuscripts submitted to [Journal Name] ([Abbreviation]) undergo a 
           rigorous double-blind peer review process to ensure scientific quality, originality and relevance.
         </p>
 

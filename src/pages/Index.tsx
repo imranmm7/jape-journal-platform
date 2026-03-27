@@ -155,7 +155,7 @@ export default function Index() {
             {/* Key Features */}
             <Card>
               <CardHeader>
-                <CardTitle className="text-lg">Why Publish with JAPE?</CardTitle>
+                <CardTitle className="text-lg">Why Publish with Us?</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="flex gap-3">
