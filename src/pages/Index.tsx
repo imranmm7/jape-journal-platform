@@ -78,17 +78,14 @@ export default function Index() {
               </h2>
               <div className="prose max-w-none text-muted-foreground">
                 <p className="mb-4">
-                  The <strong>Journal of Animal, Plant and Ecology (JAPE)</strong> aims to advance 
-                  scientific understanding and innovation at the interface of animal science, plant 
-                  science, and ecological systems. The journal provides an international, peer-reviewed 
+                  The <strong>[Journal Name] ([Abbreviation])</strong> aims to advance 
+                  scientific understanding and innovation. The journal provides an international, peer-reviewed 
                   platform for the publication of high-quality original research, reviews, and short 
-                  communications that address fundamental and applied aspects of biological and 
-                  agricultural sciences.
+                  communications. [Customize this description]
                 </p>
                 <p>
-                  JAPE seeks to promote interdisciplinary research that supports sustainable food 
-                  production, biodiversity conservation, ecosystem resilience, and environmentally 
-                  responsible agricultural practices.
+                  [Journal Abbreviation] seeks to promote interdisciplinary research that supports 
+                  scientific advancement and knowledge dissemination. [Customize this paragraph]
                 </p>
               </div>
             </section>
