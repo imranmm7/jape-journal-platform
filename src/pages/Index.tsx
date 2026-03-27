@@ -41,11 +41,11 @@ export default function Index() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-              Journal of Animal, Plant and Ecology
+              [Journal Name Here]
             </h1>
             <p className="text-lg md:text-xl opacity-90 mb-6">
               An international, peer-reviewed, open-access journal advancing scientific understanding 
-              at the interface of animal science, plant science, and ecological systems.
+              and innovation. [Customize this tagline]
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link to="/submit">
