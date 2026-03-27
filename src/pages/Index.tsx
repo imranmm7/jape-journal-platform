@@ -7,7 +7,7 @@ import { FileText, Send, Users, BookOpen, Globe, Shield } from "lucide-react";
 
 const journalInfo = [
   { label: "Frequency", value: "Quarterly (4 issues per year)" },
-  { label: "Areas Covered", value: "Agriculture, Biology, Ecology, Animal Science" },
+  { label: "Areas Covered", value: "[Subject Areas]" },
   { label: "Language", value: "English" },
   { label: "Article Types", value: "Original Research, Reviews, Short Communications" },
 ];
