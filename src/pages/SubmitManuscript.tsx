@@ -96,7 +96,7 @@ export default function SubmitManuscript() {
       <div className="max-w-3xl">
         <h1 className="text-3xl font-bold mb-2">Submit Manuscript</h1>
         <p className="text-muted-foreground mb-8">
-          Submit your research for consideration in JAPE. Please ensure your manuscript follows 
+          Submit your research for consideration. Please ensure your manuscript follows 
           the author guidelines before submission.
         </p>
 

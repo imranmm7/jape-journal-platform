@@ -7,7 +7,7 @@ import { FileText, Send, Users, BookOpen, Globe, Shield } from "lucide-react";
 
 const journalInfo = [
   { label: "Frequency", value: "Quarterly (4 issues per year)" },
-  { label: "Areas Covered", value: "Agriculture, Biology, Ecology, Animal Science" },
+  { label: "Areas Covered", value: "[Subject Areas]" },
   { label: "Language", value: "English" },
   { label: "Article Types", value: "Original Research, Reviews, Short Communications" },
 ];
@@ -17,19 +17,19 @@ const recentArticles = [
     type: "Full Length Article",
     title: "Impact of Climate Change on Crop Yield Variability in Semi-Arid Regions",
     authors: "Ahmad K., Rahman M., Ali S.",
-    doi: "10.xxxx/jape.2024.001",
+    doi: "10.xxxx/xxxx.2024.001",
   },
   {
     type: "Review Article",
     title: "Sustainable Livestock Management: Integrating Traditional and Modern Practices",
     authors: "Khan N., Hussain T., Suhail S.M.",
-    doi: "10.xxxx/jape.2024.002",
+    doi: "10.xxxx/xxxx.2024.002",
   },
   {
     type: "Short Communication",
     title: "Novel Plant-Soil Interactions in Nitrogen-Deficient Environments",
     authors: "Dawar K.M., Mian I.A., Mussarat M.",
-    doi: "10.xxxx/jape.2024.003",
+    doi: "10.xxxx/xxxx.2024.003",
   },
 ];
 
@@ -41,11 +41,11 @@ export default function Index() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-              Journal of Animal, Plant and Ecology
+              [Journal Name Here]
             </h1>
             <p className="text-lg md:text-xl opacity-90 mb-6">
               An international, peer-reviewed, open-access journal advancing scientific understanding 
-              at the interface of animal science, plant science, and ecological systems.
+              and innovation. [Customize this tagline]
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link to="/submit">
@@ -78,17 +78,14 @@ export default function Index() {
               </h2>
               <div className="prose max-w-none text-muted-foreground">
                 <p className="mb-4">
-                  The <strong>Journal of Animal, Plant and Ecology (JAPE)</strong> aims to advance 
-                  scientific understanding and innovation at the interface of animal science, plant 
-                  science, and ecological systems. The journal provides an international, peer-reviewed 
+                  The <strong>[Journal Name] ([Abbreviation])</strong> aims to advance 
+                  scientific understanding and innovation. The journal provides an international, peer-reviewed 
                   platform for the publication of high-quality original research, reviews, and short 
-                  communications that address fundamental and applied aspects of biological and 
-                  agricultural sciences.
+                  communications. [Customize this description]
                 </p>
                 <p>
-                  JAPE seeks to promote interdisciplinary research that supports sustainable food 
-                  production, biodiversity conservation, ecosystem resilience, and environmentally 
-                  responsible agricultural practices.
+                  [Journal Abbreviation] seeks to promote interdisciplinary research that supports 
+                  scientific advancement and knowledge dissemination. [Customize this paragraph]
                 </p>
               </div>
             </section>
@@ -143,6 +140,7 @@ export default function Index() {
             <Card className="bg-primary text-primary-foreground">
               <CardContent className="pt-6">
                 <h3 className="font-bold text-lg mb-2">Submit Your Research</h3>
+
                 <p className="text-sm opacity-90 mb-4">
                   Share your findings with the global scientific community.
                 </p>
@@ -157,7 +155,7 @@ export default function Index() {
             {/* Key Features */}
             <Card>
               <CardHeader>
-                <CardTitle className="text-lg">Why Publish with JAPE?</CardTitle>
+                <CardTitle className="text-lg">Why Publish with Us?</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="flex gap-3">

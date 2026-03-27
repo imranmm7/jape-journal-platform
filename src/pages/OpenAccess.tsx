@@ -13,7 +13,7 @@ export default function OpenAccess() {
             <h2 className="text-xl font-bold">Open Access Statement</h2>
           </div>
           <p className="text-muted-foreground mb-4">
-            The Journal of Animal, Plant and Ecology (JAPE) is a fully Open Access journal, providing 
+            [Journal Name] ([Abbreviation]) is a fully Open Access journal, providing 
             immediate, worldwide and unrestricted access to all published articles. All content is freely 
             available to readers without subscription or access fees, ensuring the widest possible 
             dissemination of research findings.
@@ -31,13 +31,13 @@ export default function OpenAccess() {
             <h2 className="text-xl font-bold">Open Access Policy</h2>
           </div>
           <p className="text-muted-foreground mb-4">
-            JAPE is committed to the principles of Open Access and publishes all articles under the 
+            [Journal Abbreviation] is committed to the principles of Open Access and publishes all articles under the 
             Creative Commons Attribution License (CC BY 4.0). This license permits unrestricted use, 
             distribution, reproduction, and adaptation of the published work in any medium, provided 
             the original authors and source are properly credited.
           </p>
           <p className="text-muted-foreground">
-            The Open Access model adopted by JAPE promotes transparency, knowledge sharing and the 
+            The Open Access model adopted by [Journal Abbreviation] promotes transparency, knowledge sharing and the 
             rapid global exchange of scientific information among researchers, practitioners, 
             policymakers, and the wider public.
           </p>
@@ -58,7 +58,7 @@ export default function OpenAccess() {
             <h2 className="text-xl font-bold">Copyright and Licensing</h2>
           </div>
           <p className="text-muted-foreground">
-            Authors retain full copyright of their articles. By submitting their work to JAPE, authors 
+            Authors retain full copyright of their articles. By submitting their work to [Journal Abbreviation], authors 
             grant the journal a non-exclusive license to publish, archive, and disseminate the content 
             in accordance with the CC BY 4.0 license. This policy safeguards authors' intellectual 
             property rights while enabling broad reuse and citation of their work.

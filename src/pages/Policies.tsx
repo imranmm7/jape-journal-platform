@@ -7,7 +7,7 @@ const policyLinks = [
   {
     icon: BookOpen,
     title: "Open Access Policy",
-    desc: "JAPE provides immediate, worldwide access to all published articles under CC BY 4.0.",
+    desc: "Immediate, worldwide access to all published articles under CC BY 4.0.",
     href: "/open-access",
   },
   {
@@ -19,7 +19,7 @@ const policyLinks = [
   {
     icon: Shield,
     title: "Publication Ethics",
-    desc: "JAPE adheres to COPE guidelines and international publication ethics standards.",
+    desc: "Adheres to COPE guidelines and international publication ethics standards.",
     href: "/ethics",
   },
   {
@@ -36,7 +36,7 @@ export default function Policies() {
       <div className="max-w-3xl">
         <h1 className="text-3xl font-bold mb-6">Journal Policies</h1>
         <p className="text-muted-foreground mb-8">
-          JAPE is committed to maintaining the highest standards of editorial quality, transparency, and ethical publishing practices.
+          This journal is committed to maintaining the highest standards of editorial quality, transparency, and ethical publishing practices.
         </p>
 
         <div className="grid gap-4">

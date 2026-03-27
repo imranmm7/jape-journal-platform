@@ -26,7 +26,7 @@ export function Header() {
           <div className="flex items-center gap-4">
             <Link to="/" className="flex items-center gap-3">
               <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center">
-                <span className="text-xl font-bold text-white">JAPE</span>
+                <span className="text-xl font-bold text-white">[JN]</span>
               </div>
             </Link>
           </div>

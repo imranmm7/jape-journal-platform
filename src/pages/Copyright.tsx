@@ -13,7 +13,7 @@ export default function CopyrightPage() {
             Copyright Policy
           </h2>
           <p className="text-muted-foreground mb-4">
-            Authors retain full copyright of their articles published in JAPE. By submitting a 
+            Authors retain full copyright of their articles published in [Journal Abbreviation]. By submitting a 
             manuscript, authors grant the journal a non-exclusive license to publish, archive, 
             and disseminate the content.
           </p>
@@ -22,7 +22,7 @@ export default function CopyrightPage() {
         <section>
           <h2 className="text-xl font-bold mb-4">Creative Commons License</h2>
           <p className="text-muted-foreground mb-4">
-            All articles in JAPE are published under the Creative Commons Attribution License 
+            All articles in [Journal Abbreviation] are published under the Creative Commons Attribution License 
             (CC BY 4.0). This license permits:
           </p>
           <ul className="space-y-2 text-muted-foreground mb-4">

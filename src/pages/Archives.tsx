@@ -19,7 +19,7 @@ export default function Archives() {
       <div className="max-w-3xl">
         <h1 className="text-3xl font-bold mb-6">Archives</h1>
         <p className="text-muted-foreground mb-8">
-          Browse all published volumes and issues of the Journal of Animal, Plant and Ecology.
+          Browse all published volumes and issues of [Journal Name].
         </p>
 
         <div className="space-y-6">

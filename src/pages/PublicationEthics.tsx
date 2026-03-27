@@ -7,7 +7,7 @@ export default function PublicationEthics() {
       <div className="max-w-3xl space-y-8">
         <h1 className="text-3xl font-bold">Publication Ethics</h1>
         <p className="text-muted-foreground">
-          JAPE is committed to upholding the highest standards of publication ethics and follows 
+          [Journal Abbreviation] is committed to upholding the highest standards of publication ethics and follows 
           the guidelines of the Committee on Publication Ethics (COPE).
         </p>
 
@@ -44,7 +44,7 @@ export default function PublicationEthics() {
             Misconduct Policy
           </h2>
           <p className="text-muted-foreground">
-            JAPE takes allegations of research misconduct seriously. Cases of suspected plagiarism, 
+            [Journal Abbreviation] takes allegations of research misconduct seriously. Cases of suspected plagiarism, 
             data fabrication, or falsification will be investigated following COPE guidelines. 
             Confirmed misconduct may result in rejection or retraction of articles.
           </p>

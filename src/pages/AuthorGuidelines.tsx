@@ -9,7 +9,7 @@ export default function AuthorGuidelines() {
         <section className="mb-8">
           <h2 className="text-xl font-bold mb-4">General Information</h2>
           <p className="text-muted-foreground mb-4">
-            The Journal of Animal, Plant and Ecology (JAPE) welcomes submissions of original research articles, 
+            [Journal Name] ([Abbreviation]) welcomes submissions of original research articles, 
             review articles, and short communications. All manuscripts must be written in English and should 
             not have been published or be under consideration elsewhere.
           </p>

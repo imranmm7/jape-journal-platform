@@ -10,28 +10,28 @@ const articles = [
     title: "Impact of Climate Change on Crop Yield Variability in Semi-Arid Regions: A Multi-Year Study",
     authors: "Ahmad K., Rahman M., Ali S., Khan I.",
     pages: "1-15",
-    doi: "10.xxxx/jape.2024.001",
+    doi: "10.xxxx/xxxx.2024.001",
   },
   {
     type: "Review Article",
     title: "Sustainable Livestock Management: Integrating Traditional and Modern Practices for Enhanced Productivity",
     authors: "Khan N., Hussain T., Suhail S.M., Rahman A.",
     pages: "16-32",
-    doi: "10.xxxx/jape.2024.002",
+    doi: "10.xxxx/xxxx.2024.002",
   },
   {
     type: "Short Communication",
     title: "Novel Plant-Soil Interactions in Nitrogen-Deficient Environments",
     authors: "Dawar K.M., Mian I.A., Mussarat M.",
     pages: "33-38",
-    doi: "10.xxxx/jape.2024.003",
+    doi: "10.xxxx/xxxx.2024.003",
   },
   {
     type: "Full Length Article",
     title: "Genetic Diversity and Population Structure of Indigenous Cattle Breeds",
     authors: "Jadoon S.A., Gul R., Shah S.M.A.",
     pages: "39-52",
-    doi: "10.xxxx/jape.2024.004",
+    doi: "10.xxxx/xxxx.2024.004",
   },
 ];
 

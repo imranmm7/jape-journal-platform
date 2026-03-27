@@ -7,15 +7,15 @@ export function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <h3 className="text-lg font-bold mb-4">Journal of Animal, Plant and Ecology</h3>
+            <h3 className="text-lg font-bold mb-4">[Journal Name Here]</h3>
             <p className="text-sm text-muted-foreground mb-4 max-w-md">
-              JAPE is an international, peer-reviewed, open-access journal dedicated to advancing 
-              scientific understanding at the interface of animal science, plant science, and ecological systems.
+              [Journal Abbreviation] is an international, peer-reviewed, open-access journal dedicated to advancing 
+              scientific understanding and innovation. [Customize this description]
             </p>
             <div className="space-y-2 text-sm text-muted-foreground">
               <p className="flex items-center gap-2">
-                <Mail size={16} />
-                editor@jape-journal.org
+              <Mail size={16} />
+                editor@[journal-domain].org
               </p>
             </div>
           </div>
@@ -42,7 +42,7 @@ export function Footer() {
         </div>
 
         <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Journal of Animal, Plant and Ecology (JAPE). All rights reserved.</p>
+          <p>© {new Date().getFullYear()} [Journal Name Here] ([Abbreviation]). All rights reserved.</p>
           <p className="mt-1">ISSN: XXXX-XXXX (Online)</p>
         </div>
       </div>
