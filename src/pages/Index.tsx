@@ -17,7 +17,7 @@ const recentArticles = [
     type: "Full Length Article",
     title: "Impact of Climate Change on Crop Yield Variability in Semi-Arid Regions",
     authors: "Ahmad K., Rahman M., Ali S.",
-    doi: "10.xxxx/jape.2024.001",
+    doi: "10.xxxx/xxxx.2024.001",
   },
   {
     type: "Review Article",
