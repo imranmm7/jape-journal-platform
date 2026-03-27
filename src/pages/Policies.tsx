@@ -7,7 +7,7 @@ const policyLinks = [
   {
     icon: BookOpen,
     title: "Open Access Policy",
-    desc: "JAPE provides immediate, worldwide access to all published articles under CC BY 4.0.",
+    desc: "Immediate, worldwide access to all published articles under CC BY 4.0.",
     href: "/open-access",
   },
   {
