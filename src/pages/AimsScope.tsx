@@ -28,22 +28,17 @@ export default function AimsScope() {
         <section className="mb-8">
           <h2 className="text-xl font-bold mb-4">Aims</h2>
           <p className="text-muted-foreground mb-4">
-            The Journal of Animal, Plant and Ecology (JAPE) aims to advance scientific understanding 
-            and innovation at the interface of animal science, plant science and ecological systems. 
-            The journal provides an international, peer-reviewed platform for the publication of 
-            high-quality original research, reviews and short communications that address fundamental 
-            and applied aspects of biological and agricultural sciences.
+            [Journal Name] ([Abbreviation]) aims to advance scientific understanding 
+            and innovation. The journal provides an international, peer-reviewed platform for the publication of 
+            high-quality original research, reviews and short communications. [Customize aims]
           </p>
           <p className="text-muted-foreground mb-4">
-            JAPE seeks to promote interdisciplinary research that supports sustainable food production, 
-            biodiversity conservation, ecosystem resilience and environmentally responsible agricultural 
-            practices. The journal aspires to serve as a leading source of scholarly knowledge that 
-            contributes to global food security, climate-smart agriculture and the sustainable management 
-            of natural resources.
+            [Journal Abbreviation] seeks to promote interdisciplinary research that supports 
+            scientific advancement and knowledge dissemination. [Customize this paragraph]
           </p>
           <p className="text-muted-foreground">
-            By encouraging the integration of ecological principles with animal and plant sciences, JAPE 
-            supports research that enhances productivity while maintaining environmental balance.
+            [Journal Abbreviation] supports research that enhances knowledge while maintaining 
+            scientific rigor. [Customize this paragraph]
           </p>
         </section>
 
