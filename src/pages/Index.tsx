@@ -29,7 +29,7 @@ const recentArticles = [
     type: "Short Communication",
     title: "Novel Plant-Soil Interactions in Nitrogen-Deficient Environments",
     authors: "Dawar K.M., Mian I.A., Mussarat M.",
-    doi: "10.xxxx/jape.2024.003",
+    doi: "10.xxxx/xxxx.2024.003",
   },
 ];
 
