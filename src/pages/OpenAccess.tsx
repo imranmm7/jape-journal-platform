@@ -31,7 +31,7 @@ export default function OpenAccess() {
             <h2 className="text-xl font-bold">Open Access Policy</h2>
           </div>
           <p className="text-muted-foreground mb-4">
-            JAPE is committed to the principles of Open Access and publishes all articles under the 
+            [Journal Abbreviation] is committed to the principles of Open Access and publishes all articles under the 
             Creative Commons Attribution License (CC BY 4.0). This license permits unrestricted use, 
             distribution, reproduction, and adaptation of the published work in any medium, provided 
             the original authors and source are properly credited.
